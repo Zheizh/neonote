@@ -1,13 +1,16 @@
-This repo is not to be graded, it is personal.
-
 # Neonote
 A terminal-based, markdown text editor with task management, calendar scheduling, and more.
+
+## About this fork
+This is my fork of the CS3307B team project at Western University. My main contribution was implementing the `Task` and `TaskManager` components. I also contributed to autosave, lightweight text formatting, and the Makefile.
+
+The original team repository is [gdonlol/neonote](https://github.com/gdonlol/neonote). The original contributors and commit history are retained.
 
 ## How to run
 Clone the repository.
 
 ```
-https://github.com/gdonlol/neonote.git
+https://github.com/Zheizh/neonote.git
 ```
 
 Navigate to project directory in your terminal and use `make` to compile the program or `make run` to compile and run.

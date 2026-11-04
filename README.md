@@ -1,5 +1,5 @@
 # Neonote
-A terminal-based, markdown text editor with task management, calendar scheduling, and more.
+A C++/ncurses terminal application for Markdown-style notes, task management and calendar entries, built as a Western University CS3307B team project.
 
 ## About this fork
 This is my fork of the CS3307B team project at Western University. My main contribution was implementing the `Task` and `TaskManager` components. I also contributed to autosave, lightweight text formatting, and the Makefile.
@@ -53,10 +53,10 @@ sudo pacman -S make
 sudo dnf install make
 ```
 
-## Description - CS3307 Group 14
-Beautiful, fast, and fully featured text editor in the terminal for users who wish to keep their workflow in one place. This project will incorporate planning features similar to Notion to streamline personal productivity but be optimized for terminal use with a graphical TUI (text-based user interface). The text editor will integrate tools for task management, calendar scheduling, and more, while being optimized for a keyboard-driven workflow in a terminal environment.
+## Course project
+Neonote was developed by CS3307B Group 14 at Western University. It brings note editing, task management and calendar features into a keyboard-driven terminal interface.
 
-This software will be developed in C++ and will run virtually on a Raspberry Pi. We do not require a physical Raspberry Pi kit for this project.
+The original course brief targeted a virtual Raspberry Pi environment and did not require a physical kit.
 
 ## Features
 - Markdown editing
